@@ -1,0 +1,36 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a60282f4-e7a6-4e21-8c13-e3a6f79f8979)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 81.28 54.61) (xy 115.57 54.61))
+    (stroke (width 0) (type default))
+    (uuid 60e93c74-3043-46fa-8a67-da094db6fce7)
+  )
+  (wire (pts (xy 81.28 46.99) (xy 115.57 46.99))
+    (stroke (width 0) (type default))
+    (uuid c7f93502-f7c2-4eeb-8832-f87805cef1e2)
+  )
+
+  (hierarchical_label "SCL_3V3" (shape bidirectional) (at 81.28 54.61 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 09420711-7818-4df8-ad40-554b93bd8840)
+  )
+  (hierarchical_label "SDA_5V" (shape bidirectional) (at 115.57 46.99 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6021fc0a-9844-4e17-bc09-a25d11244d8c)
+  )
+  (hierarchical_label "SDA_3V3" (shape bidirectional) (at 81.28 46.99 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 81e2ceb8-1142-465f-8311-7385332d1af9)
+  )
+  (hierarchical_label "SCL_5V" (shape bidirectional) (at 115.57 54.61 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a964cdd7-0e6a-414c-b429-1d42a9434d36)
+  )
+)
