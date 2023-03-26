@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "ISO7740DW")(type "KiCad")(uri "${KIPRJMOD}/library/ISO7740DW/ISO7740DW.kicad_sym")(options "")(descr ""))
+  (lib (name "CrushMainBoard_Library")(type "KiCad")(uri "${KIPRJMOD}/library/CrushMainBoard_Library.kicad_sym")(options "")(descr ""))
 )
