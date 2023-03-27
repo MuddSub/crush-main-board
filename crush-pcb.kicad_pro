@@ -392,8 +392,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Crush_Mainboard_Footprints"
+    ],
+    "pinned_symbol_libs": [
+      "Crush_MainBoard_Symbols"
+    ]
   },
   "meta": {
     "filename": "crush-pcb.kicad_pro",

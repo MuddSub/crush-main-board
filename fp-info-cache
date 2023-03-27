@@ -1,4 +1,4 @@
-21452288931762402
+21459008466527350
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50084,6 +50084,34 @@ DCDC-Converter XP_POWER JTE06 Dual
 0
 8
 8
+Crush_Mainboard_Footprints
+3x2_Header
+
+
+0
+6
+6
+Crush_Mainboard_Footprints
+3x3_Header
+
+
+0
+9
+9
+Crush_Mainboard_Footprints
+3x4_Header
+
+
+0
+12
+12
+Crush_Mainboard_Footprints
+4x4_Header
+
+
+0
+16
+16
 Crush_Mainboard_Footprints
 SOIC127P1030X265-16N
 
