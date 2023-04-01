@@ -395,7 +395,7 @@
     (property "Value" "4K7" (at 40.64 17.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 39.116 15.494 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 39.116 15.494 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 15.24 0)
@@ -404,7 +404,7 @@
     (pin "1" (uuid f324b545-b712-44d2-bf83-22c6a64cc564))
     (pin "2" (uuid 31892bd0-4f03-4acb-83d6-4e792d058779))
     (instances
-      (project "crush-pcb"
+      (project "crush-main-board"
         (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/063e1b7a-9baa-4271-8254-31d7d54fb281"
           (reference "R1") (unit 1)
         )
@@ -431,7 +431,7 @@
     (pin "2" (uuid d079daa3-4d67-4e83-8a63-ef859dcbbe9e))
     (pin "3" (uuid bbf6d9b7-1f73-4558-851e-ddaf79ad2476))
     (instances
-      (project "crush-pcb"
+      (project "crush-main-board"
         (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/063e1b7a-9baa-4271-8254-31d7d54fb281"
           (reference "Q1") (unit 1)
         )
@@ -448,7 +448,7 @@
     (property "Value" "4K7" (at 29.21 17.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 27.686 15.494 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 27.686 15.494 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 26.67 15.24 0)
@@ -457,7 +457,7 @@
     (pin "1" (uuid b5f7447f-ce60-447a-bffa-ac007d3695d8))
     (pin "2" (uuid e4f92cd6-7204-4e81-95ed-3f8acdf8dc09))
     (instances
-      (project "crush-pcb"
+      (project "crush-main-board"
         (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/063e1b7a-9baa-4271-8254-31d7d54fb281"
           (reference "R2") (unit 1)
         )
@@ -474,7 +474,7 @@
     (property "Value" "4K7" (at 76.2 17.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 74.676 15.494 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 74.676 15.494 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 73.66 15.24 0)
@@ -483,7 +483,7 @@
     (pin "1" (uuid 7828b9a4-52c4-4786-be6c-08de121f42b7))
     (pin "2" (uuid 64a5e1f7-7151-428a-980d-a2cbf9904ae9))
     (instances
-      (project "crush-pcb"
+      (project "crush-main-board"
         (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/063e1b7a-9baa-4271-8254-31d7d54fb281"
           (reference "R3") (unit 1)
         )
@@ -510,7 +510,7 @@
     (pin "2" (uuid 3428c48b-59b3-492d-9572-8f2c8fd0a568))
     (pin "3" (uuid 3f189982-2713-4622-ba26-1f2e2407ef1c))
     (instances
-      (project "crush-pcb"
+      (project "crush-main-board"
         (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/063e1b7a-9baa-4271-8254-31d7d54fb281"
           (reference "Q2") (unit 1)
         )
@@ -527,7 +527,7 @@
     (property "Value" "4K7" (at 87.63 17.145 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 86.106 15.494 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 86.106 15.494 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.09 15.24 0)
@@ -536,7 +536,7 @@
     (pin "1" (uuid b14e1013-9fed-4648-a2fd-b9bed54f760e))
     (pin "2" (uuid b64de945-d5b7-4ade-a94b-da34d151ce12))
     (instances
-      (project "crush-pcb"
+      (project "crush-main-board"
         (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/063e1b7a-9baa-4271-8254-31d7d54fb281"
           (reference "R4") (unit 1)
         )
