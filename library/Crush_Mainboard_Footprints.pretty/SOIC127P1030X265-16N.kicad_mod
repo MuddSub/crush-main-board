@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1e842dd0-9021-4837-a8cb-d9f800738cae)
   )
-  (fp_text value "SOIC127P1030X265-16N" (at 6.89 6.162) (layer "F.Fab")
+  (fp_text value "SOIC127P1030X265-16N" (at 0 7.112) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fa2bcf3d-a325-4f14-8d98-fc0d96db05f9)
   )
