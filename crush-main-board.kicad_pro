@@ -400,7 +400,7 @@
     ]
   },
   "meta": {
-    "filename": "crush-pcb.kicad_pro",
+    "filename": "crush-main-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -493,6 +493,10 @@
     [
       "063e1b7a-9baa-4271-8254-31d7d54fb281",
       "I2C_Level_Shifter"
+    ],
+    [
+      "bd306228-21c6-4f00-bab7-e02ca2e320ac",
+      "Battery Monitoring"
     ]
   ],
   "text_variables": {
