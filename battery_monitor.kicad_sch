@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1fcc1511-5bc9-4c85-8375-68c4eda7e380)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "ADC: MCP3221\n" (at 171.45 107.95 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3d76e9f5-c134-4a3d-9ac0-670446af66ab)
+  )
+)
