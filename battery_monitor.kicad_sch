@@ -319,6 +319,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d1763d98-4298-4a16-858d-91ef9b400e54)
   )
+  (label "16V8 (MAX)" (at 124.46 19.05 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e2133a63-58a2-42c0-90c9-1115325d5d22)
+  )
 
   (hierarchical_label "GND" (shape input) (at 33.02 43.18 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
