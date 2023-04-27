@@ -184,7 +184,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 00a5ef47-0323-4aa2-985a-404d7f1102e8)
-    (at 157.36 81.134 90)
+    (at 152.96 86.308 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "crush-main-board.kicad_sch")
@@ -238,7 +238,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 00ba1e04-30db-493e-812a-0a4519961f2e)
-    (at 184.375 56.384 90)
+    (at 180.5 56.0875 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "battery_monitor.kicad_sch")
@@ -292,7 +292,7 @@
 
   (footprint "Crush_Mainboard_Footprints:SOT95P280X145-5N" (layer "F.Cu")
     (tstamp 02ab872d-6790-402f-ac90-ddef3c667e09)
-    (at 176.875 55.5465 180)
+    (at 172.475 55.25 180)
     (property "Sheetfile" "battery_monitor.kicad_sch")
     (property "Sheetname" "Thruster Battery Monitoring")
     (path "/bd306228-21c6-4f00-bab7-e02ca2e320ac/e1b33ee8-4552-42b8-985b-bee908cea676")
@@ -359,7 +359,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x1_Header" (layer "F.Cu")
     (tstamp 040285e3-633c-4192-9c2a-86aa54bad269)
-    (at 96.08 84.4965 -90)
+    (at 138.54 95.5 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -413,7 +413,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x2_Header" (layer "F.Cu")
     (tstamp 0486d76e-932c-4328-866f-c51aa514c395)
-    (at 118.624 88.7265 -90)
+    (at 92.464 97.23 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -473,7 +473,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 08bb1e51-43f0-400e-a895-d595a4bc5f4c)
-    (at 157.375 49.5465 90)
+    (at 152.975 49.25 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "battery_monitor.kicad_sch")
@@ -527,7 +527,7 @@
 
   (footprint "Crush_Mainboard_Footprints:SODFL3718X108N" (layer "F.Cu")
     (tstamp 13acd979-2d9f-4ec7-a732-e5f19356853b)
-    (at 128 90.4165 90)
+    (at 103 90.4165 90)
     (property "Sheetfile" "crush-main-board.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Schottky diode")
@@ -572,7 +572,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 17e960c0-71ab-4e99-87a9-8fc8fc41862c)
-    (at 114.12 60.1965 -90)
+    (at 130.3 64.2125 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "i2c_level_shifter.kicad_sch")
@@ -626,7 +626,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 1ada13dc-37bc-476a-b803-c047f381d466)
-    (at 152 44.9165 -90)
+    (at 126.88 44.9165 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "crush-main-board.kicad_sch")
@@ -680,7 +680,7 @@
 
   (footprint "Crush_Mainboard_Footprints:SOIC127P1030X265-16N" (layer "F.Cu")
     (tstamp 2f2ab93c-b96d-4224-9c58-9ed71d7e48f2)
-    (at 165.86 86.055)
+    (at 161.46 91.229)
     (property "Sheetfile" "crush-main-board.kicad_sch")
     (property "Sheetname" "")
     (path "/5835bb8b-ddc5-4df3-a873-79407f8f2195")
@@ -753,7 +753,7 @@
 
   (footprint "Crush_Mainboard_Footprints:Teensy41" (layer "F.Cu")
     (tstamp 38cc45df-15fe-43be-8e73-dd1ba019695a)
-    (at 140 62.2865 90)
+    (at 114.88 62.2865 90)
     (property "Sheetfile" "crush-main-board.kicad_sch")
     (property "Sheetname" "")
     (path "/4aa96338-d3c0-4bdf-8b94-1e4ce1de8eab")
@@ -1077,7 +1077,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x3_Header" (layer "F.Cu")
     (tstamp 3b19c013-da89-4e66-996e-54e17d2622af)
-    (at 107.66 78.5485 -90)
+    (at 79.46 85.052 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -1143,7 +1143,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 45e66ef1-ed0b-4fb4-a6b7-bb5c9a3ea7be)
-    (at 118.12 60.1965 -90)
+    (at 134.3 64.2125 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "i2c_level_shifter.kicad_sch")
@@ -1197,7 +1197,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 4ab80d14-c472-4d99-a987-a6579ab221ab)
-    (at 157.86 66.634 90)
+    (at 153.46 69 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "crush-main-board.kicad_sch")
@@ -1251,7 +1251,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x4_Header" (layer "F.Cu")
     (tstamp 500710c3-3cb6-4e8b-a984-6c6b5177102b)
-    (at 120.48 47.1265 -90)
+    (at 94 47.23 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -1304,32 +1304,32 @@
     (pad "01" thru_hole rect (at -3.81 2.54 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 50 "A{slash}DIO16") (pinfunction "01") (pintype "passive") (tstamp 76644f4b-a2a9-437b-8f05-d410839da75a))
     (pad "02" thru_hole circle (at -3.81 0 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
-      (net 2 "+3V3") (pinfunction "02") (pintype "passive") (tstamp bcef1a48-829a-499c-9c19-b31a3ed87bd4))
+      (net 9 "+5V") (pinfunction "02") (pintype "passive") (tstamp bcef1a48-829a-499c-9c19-b31a3ed87bd4))
     (pad "03" thru_hole circle (at -3.81 -2.54 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "03") (pintype "passive") (tstamp 86e8f7f2-0507-4732-807c-1bd6b67d7f54))
     (pad "04" thru_hole circle (at -1.27 2.54 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 51 "A{slash}DIO17") (pinfunction "04") (pintype "passive") (tstamp 3ff6ba3b-d55e-4b1b-aa7d-b10b3c2d0bf0))
     (pad "05" thru_hole circle (at -1.27 0 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
-      (net 2 "+3V3") (pinfunction "05") (pintype "passive") (tstamp a0b61bc1-ef9f-4297-aae0-c9d51cca4204))
+      (net 9 "+5V") (pinfunction "05") (pintype "passive") (tstamp a0b61bc1-ef9f-4297-aae0-c9d51cca4204))
     (pad "06" thru_hole circle (at -1.27 -2.54 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "06") (pintype "passive") (tstamp 5200665b-3e7a-40d1-a464-951f3fece516))
     (pad "07" thru_hole circle (at 1.27 2.54 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 52 "A{slash}DIO20") (pinfunction "07") (pintype "passive") (tstamp a3fa3138-acf1-4e3f-8212-0b63d131f215))
     (pad "08" thru_hole circle (at 1.27 0 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
-      (net 2 "+3V3") (pinfunction "08") (pintype "passive") (tstamp 88118d48-ad0d-47d3-a042-04c125f99316))
+      (net 9 "+5V") (pinfunction "08") (pintype "passive") (tstamp 88118d48-ad0d-47d3-a042-04c125f99316))
     (pad "09" thru_hole circle (at 1.27 -2.54 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "09") (pintype "passive") (tstamp eb49f446-6c9e-4d31-9f3d-202d1477c646))
     (pad "10" thru_hole circle (at 3.81 2.54 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 53 "A{slash}DIO21") (pinfunction "10") (pintype "passive") (tstamp 54bfefe9-5ab5-4e88-88f6-96eecc11cbb3))
     (pad "11" thru_hole circle (at 3.81 0 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
-      (net 2 "+3V3") (pinfunction "11") (pintype "passive") (tstamp 1d06dab9-a528-4478-a1cb-95758be5ae58))
+      (net 9 "+5V") (pinfunction "11") (pintype "passive") (tstamp 1d06dab9-a528-4478-a1cb-95758be5ae58))
     (pad "12" thru_hole circle (at 3.81 -2.54 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "12") (pintype "passive") (tstamp 572cade7-5944-453f-90ae-10c3f3c09e77))
   )
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp 72f15d0d-beef-47f7-b642-011355f33933)
-    (at 124.12 65.559 -90)
+    (at 96 69.559 -90)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "i2c_level_shifter.kicad_sch")
@@ -1391,7 +1391,7 @@
 
   (footprint "Crush_Mainboard_Footprints:6x2_Header" (layer "F.Cu")
     (tstamp 740951f5-9612-4efe-9387-5330bc32e8f3)
-    (at 92.31 77.2665 90)
+    (at 138.35 83.27 90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -1463,7 +1463,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x4_Header" (layer "F.Cu")
     (tstamp 7774db89-13a9-4e92-82cb-255f19c96c34)
-    (at 108.98 47.0865 -90)
+    (at 140 47.23 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -1535,7 +1535,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 84f27652-1f51-4745-a7d8-3e42c1b0c5af)
-    (at 173.86 81.134 90)
+    (at 169.46 86.308 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "crush-main-board.kicad_sch")
@@ -1589,7 +1589,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x2_Header" (layer "F.Cu")
     (tstamp 8bc8181b-c837-48ad-9a5b-e909d2b4ddac)
-    (at 120.34 35.2165 -90)
+    (at 93.964 30.73 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -1649,7 +1649,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x4_Header" (layer "F.Cu")
     (tstamp 993e2add-29b5-4fda-b1f9-ded8e5370fe4)
-    (at 181.9 71.324 -90)
+    (at 177.5 73.69 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -1721,7 +1721,7 @@
 
   (footprint "Crush_Mainboard_Footprints:SOIC127P1030X265-16N" (layer "F.Cu")
     (tstamp 9a5f8947-13fc-48da-8269-beb8e4251ba9)
-    (at 165.875 54.5465)
+    (at 161.475 54.25)
     (property "Sheetfile" "battery_monitor.kicad_sch")
     (property "Sheetname" "Thruster Battery Monitoring")
     (path "/bd306228-21c6-4f00-bab7-e02ca2e320ac/95d4be9b-f1bf-4748-8484-27819def09e2")
@@ -1786,7 +1786,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 9e5e1596-a1ec-4ed3-8054-0c5a1487157c)
-    (at 152 50.9165 -90)
+    (at 126.88 50.9165 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "crush-main-board.kicad_sch")
@@ -1840,7 +1840,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 9ef8ecac-9cf7-4b57-aa33-ec33dfb914cd)
-    (at 184.375 50.134 90)
+    (at 180.5 49.8375 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "battery_monitor.kicad_sch")
@@ -1894,7 +1894,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x3_Header" (layer "F.Cu")
     (tstamp a1e0dc36-d16f-46c3-b84e-4da52a2812c6)
-    (at 107.62 89.9965 -90)
+    (at 79.42 98.5 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -1960,7 +1960,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp aa8dbb2a-e2fd-4adc-acf5-72098c9de892)
-    (at 126.12 60.209 -90)
+    (at 98 64.209 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "i2c_level_shifter.kicad_sch")
@@ -2014,7 +2014,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x3_Header" (layer "F.Cu")
     (tstamp b72379b6-5cc8-458f-b19a-89e1408c91b4)
-    (at 118.62 78.4565 -90)
+    (at 92.46 84.96 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -2080,7 +2080,7 @@
 
   (footprint "Crush_Mainboard_Footprints:SOIC127P1030X265-16N" (layer "F.Cu")
     (tstamp be8e2ab0-f470-4895-a27b-a44b7ffc8750)
-    (at 165.86 71.2715)
+    (at 161.46 73.6375)
     (property "Sheetfile" "crush-main-board.kicad_sch")
     (property "Sheetname" "")
     (path "/e16d525f-7b74-40ea-8ba4-4735d1a6714d")
@@ -2153,7 +2153,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp c1cd58c9-ea89-4556-b168-a06e88304324)
-    (at 173.86 66.634 90)
+    (at 169.46 69 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "crush-main-board.kicad_sch")
@@ -2207,7 +2207,7 @@
 
   (footprint "Crush_Mainboard_Footprints:4x4_Header" (layer "F.Cu")
     (tstamp d171be63-4304-4ce6-9a02-29a7c4a617d7)
-    (at 105.064 63.2665 -90)
+    (at 84.414 67.2665 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -2287,7 +2287,7 @@
 
   (footprint "Crush_Mainboard_Footprints:MOLEX_2157601008" (layer "F.Cu")
     (tstamp d75c7425-209f-4743-9f57-98291150ccb0)
-    (at 159.62 40.3415 180)
+    (at 155 38.445 180)
     (property "MANUFACTURER" "Molex")
     (property "MAXIMUM_PACKAGE_HEIGHT" "5.87 mm")
     (property "PARTREV" "A1")
@@ -2418,7 +2418,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp df7017ab-b2b7-4f6a-9800-b9bf5fe11aa6)
-    (at 181.375 56.159 -90)
+    (at 177 57.566 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "battery_monitor.kicad_sch")
@@ -2472,7 +2472,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp e39f3df8-f579-4cf8-8d53-88e37a24f5be)
-    (at 122.12 60.1965 -90)
+    (at 94 64.1965 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "i2c_level_shifter.kicad_sch")
@@ -2526,7 +2526,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp ecca14b5-583a-4b4a-9d03-4bdc00499ce1)
-    (at 173.875 49.5465 90)
+    (at 169.475 49.25 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "battery_monitor.kicad_sch")
@@ -2580,7 +2580,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp ed73a25c-0f26-458f-907e-bf4421127f6e)
-    (at 116.17 65.559 -90)
+    (at 132.35 69.575 -90)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "i2c_level_shifter.kicad_sch")
@@ -2642,7 +2642,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x2_Header" (layer "F.Cu")
     (tstamp f133d321-6a99-4e9d-b293-196b17ecaf5e)
-    (at 108.984 35.2965 -90)
+    (at 139.964 30.73 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -2708,7 +2708,7 @@
 
   (footprint "Crush_Mainboard_Footprints:4x4_Header" (layer "F.Cu")
     (tstamp fa90d24d-dc54-45df-b5e7-a6dde5a37b70)
-    (at 92.43 63.1865 -90)
+    (at 143.66 67.246 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -2753,7 +2753,7 @@
     (fp_circle (center -5.73 3.81) (end -5.63 3.81)
       (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp 5423b0a4-3f9f-40e3-b511-aa95574d2e07))
     (pad "01" thru_hole rect (at -3.81 3.81 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
-      (net 9 "+5V") (pinfunction "01") (pintype "passive") (tstamp 026213f1-3e02-4489-b2e6-dc5833c01778))
+      (net 2 "+3V3") (pinfunction "01") (pintype "passive") (tstamp 026213f1-3e02-4489-b2e6-dc5833c01778))
     (pad "02" thru_hole circle (at -3.81 1.27 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 31 "SDA_3V3") (pinfunction "02") (pintype "passive") (tstamp a975d1d1-bbfa-426b-a441-0bf47c5292e8))
     (pad "03" thru_hole circle (at -3.81 -1.27 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
@@ -2761,7 +2761,7 @@
     (pad "04" thru_hole circle (at -3.81 -3.556 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "04") (pintype "passive") (tstamp 54fae903-8807-4f90-a938-fd097cefbe07))
     (pad "05" thru_hole circle (at -1.27 3.81 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
-      (net 9 "+5V") (pinfunction "05") (pintype "passive") (tstamp 6980b339-ef1a-48f5-85fe-2e6d357a359e))
+      (net 2 "+3V3") (pinfunction "05") (pintype "passive") (tstamp 6980b339-ef1a-48f5-85fe-2e6d357a359e))
     (pad "06" thru_hole circle (at -1.27 1.27 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 31 "SDA_3V3") (pinfunction "06") (pintype "passive") (tstamp ca14f5bc-cffe-43d9-b0f1-1db2b7c55592))
     (pad "07" thru_hole circle (at -1.27 -1.27 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
@@ -2769,7 +2769,7 @@
     (pad "08" thru_hole circle (at -1.27 -3.556 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "08") (pintype "passive") (tstamp 54e45ead-60f2-416a-8c17-fcd9b21dba21))
     (pad "09" thru_hole circle (at 1.27 3.81 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
-      (net 9 "+5V") (pinfunction "09") (pintype "passive") (tstamp b4550ad9-58d7-41e8-a283-1946f1b75a50))
+      (net 2 "+3V3") (pinfunction "09") (pintype "passive") (tstamp b4550ad9-58d7-41e8-a283-1946f1b75a50))
     (pad "10" thru_hole circle (at 1.27 1.27 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 31 "SDA_3V3") (pinfunction "10") (pintype "passive") (tstamp 393f995d-5b5f-4fc4-85ff-b1590b9fdf43))
     (pad "11" thru_hole circle (at 1.27 -1.27 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
@@ -2777,7 +2777,7 @@
     (pad "12" thru_hole circle (at 1.27 -3.556 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "12") (pintype "passive") (tstamp d9ae1ad6-8a97-40de-96a2-54c928172496))
     (pad "13" thru_hole circle (at 3.81 3.81 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
-      (net 9 "+5V") (pinfunction "13") (pintype "passive") (tstamp fe12d3bb-1cf5-43ec-9037-2e89d10bc1b3))
+      (net 2 "+3V3") (pinfunction "13") (pintype "passive") (tstamp fe12d3bb-1cf5-43ec-9037-2e89d10bc1b3))
     (pad "14" thru_hole circle (at 3.81 1.27 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 31 "SDA_3V3") (pinfunction "14") (pintype "passive") (tstamp 907931ec-d61d-4e0a-9462-d9a284a4c60f))
     (pad "15" thru_hole circle (at 3.81 -1.27 270) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
@@ -2788,7 +2788,7 @@
 
   (footprint "Crush_Mainboard_Footprints:3x4_Header" (layer "F.Cu")
     (tstamp fcd75451-e8aa-429d-87c7-d2e7c5758ff7)
-    (at 181.86 86.016 -90)
+    (at 177.46 91.19 -90)
     (property "MANUFACTURER" "")
     (property "PARTREV" "")
     (property "STANDARD" "")
@@ -2858,7 +2858,7 @@
       (net 83 "GND_T") (pinfunction "12") (pintype "passive") (tstamp e03a7bfd-8488-4fa5-accf-b8a78ddb06e9))
   )
 
-  (segment (start 120.48 43.3165) (end 120.44 43.3165) (width 0.5) (layer "B.Cu") (net 2) (tstamp 7628d3a2-0064-46ab-a6c7-2192bff99561))
-  (segment (start 120.44 43.3165) (end 120.42 43.2965) (width 0.5) (layer "B.Cu") (net 2) (tstamp ca0a54cb-673a-4e2f-b6cc-fecf94c8ad42))
+  (segment (start 94.32 43.3165) (end 94.28 43.3165) (width 0.5) (layer "B.Cu") (net 9) (tstamp 7628d3a2-0064-46ab-a6c7-2192bff99561))
+  (segment (start 94.28 43.3165) (end 94.26 43.2965) (width 0.5) (layer "B.Cu") (net 9) (tstamp ca0a54cb-673a-4e2f-b6cc-fecf94c8ad42))
 
 )
