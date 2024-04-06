@@ -34,3 +34,6 @@ sym-lib-table
 crush-main-board-backups/
 crush-pcb-backups/
 
+# Lock files
+*.lck
+
