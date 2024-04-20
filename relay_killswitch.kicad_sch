@@ -666,31 +666,6 @@
     (uuid f7f87a1b-7b5b-4bc1-8e53-147d1faeb3b0)
   )
 
-  (symbol (lib_id "power:GND") (at 85.09 70.485 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 16e80d92-2c00-46c4-8c08-fe0d0addd100)
-    (property "Reference" "#PWR051" (at 85.09 76.835 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 85.09 75.565 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 85.09 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 85.09 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 09d5f5d9-f5c2-455e-b5b5-7e2732dccc99))
-    (instances
-      (project "crush-main-board"
-        (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/0e721f5c-da80-471e-ad5a-644eccf6c541"
-          (reference "#PWR051") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Transistor_FET:DMG2301L") (at 82.55 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33a86b03-c70b-46e4-9632-9ca2726bd2ea)
@@ -738,6 +713,31 @@
       (project "crush-main-board"
         (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/0e721f5c-da80-471e-ad5a-644eccf6c541"
           (reference "#PWR059") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 85.09 70.485 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 594935b6-2f24-4e7b-b1dc-f66809ef6663)
+    (property "Reference" "#PWR051" (at 85.09 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 85.09 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 85.09 70.485 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 85.09 70.485 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a9f97b9b-937e-4256-ae7c-c493b5541b1a))
+    (instances
+      (project "crush-main-board"
+        (path "/74b566fe-9d71-4817-95ed-d472d647f8c8/0e721f5c-da80-471e-ad5a-644eccf6c541"
+          (reference "#PWR051") (unit 1)
         )
       )
     )
