@@ -1,4 +1,4 @@
-26653946197015063
+26655708238770129
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58078,6 +58078,13 @@ MOLEX_2157601008
 0
 8
 8
+Crush_Mainboard_Footprints
+Rocker_E_Switch_RR511D1121_EWI
+
+RR511D1121 
+0
+2
+2
 Crush_Mainboard_Footprints
 SODFL3718X108N
 
