@@ -5370,104 +5370,6 @@
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
-		(uuid "49809fd8-e60e-4505-a560-b78c2bfa0b0a")
-		(at 51.99 21.89)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "REF**"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "54570c79-ed72-400b-8551-90f1858338fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Pad_D1.0mm"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "3bdd8752-5927-4426-818c-b0f0a62055f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13088ae0-3f6a-493b-aaf8-02908f662a25")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1107da7e-9257-4330-a55c-3b7db374e322")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "2d4e0252-a98a-4618-980e-6b02c1417ec7")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "0d1ee4a5-5aa8-46fe-9ce3-bf6c2b8b238f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "c614a020-ae3f-4a6f-a6f7-307152a6d13b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(property pad_prop_testpoint)
-			(layers "F.Cu" "F.Mask")
-			(net 76 "BATT")
-			(uuid "376dc1b7-4e2e-4494-a032-f6e50665743f")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
 		(uuid "4ab48b4d-d76e-4c17-bbf2-2fddc71b6eb4")
 		(at 95.5 112)
 		(descr "SMD pad as test Point, diameter 1.0mm")
@@ -15057,19 +14959,6 @@
 		(layer "Edge.Cuts")
 		(uuid "d48ce459-ef5d-4b83-b826-96c73143484b")
 	)
-	(gr_text "GND_TP"
-		(at 53 23 0)
-		(layer "F.Cu")
-		(uuid "6df05dc6-8c1d-4719-bd3b-9c665cd48d66")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "+"
 		(at 23.946979 51.811421 270)
 		(layer "F.SilkS")
@@ -19371,14 +19260,6 @@
 		(layer "F.Cu")
 		(net 76)
 		(uuid "abcea374-4543-495f-8656-9bf6fc2d9bdd")
-	)
-	(segment
-		(start 51.99 21.89)
-		(end 47.366 21.89)
-		(width 0.35)
-		(layer "F.Cu")
-		(net 76)
-		(uuid "aea447d8-ea30-4725-b414-736038af99aa")
 	)
 	(segment
 		(start 89.780879 41.981621)
