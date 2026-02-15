@@ -1183,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 49.53) (xy 27.94 41.91)
+			(xy 19.05 49.53) (xy 19.05 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1193,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 49.53) (xy 34.29 49.53)
+			(xy 27.94 41.91) (xy 27.94 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e1c1ca-045d-403d-b7de-e02b7825c380")
+	)
+	(wire
+		(pts
+			(xy 22.86 49.53) (xy 27.94 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1210,6 +1220,16 @@
 			(type default)
 		)
 		(uuid "5c7f32f5-73bb-4876-91d7-58b40615bf25")
+	)
+	(wire
+		(pts
+			(xy 31.75 49.53) (xy 34.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641fd979-fbba-49df-bc90-3c45a91b4f4c")
 	)
 	(wire
 		(pts
@@ -1240,6 +1260,16 @@
 			(type default)
 		)
 		(uuid "970692e6-0ca2-4739-a55c-339062377168")
+	)
+	(wire
+		(pts
+			(xy 31.75 41.91) (xy 31.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b48a89-8ca7-42cb-ab1a-d9ef732529ce")
 	)
 	(wire
 		(pts
@@ -1313,7 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 41.91) (xy 31.75 49.53)
+			(xy 22.86 41.91) (xy 22.86 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 49.53) (xy 27.94 49.53)
+			(xy 13.97 49.53) (xy 19.05 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1383,7 +1413,7 @@
 	)
 	(hierarchical_label "HW_KILL_2"
 		(shape bidirectional)
-		(at 31.75 41.91 90)
+		(at 22.86 41.91 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1391,6 +1421,17 @@
 			(justify left)
 		)
 		(uuid "2bb3402c-72f7-440f-82cd-b89f8e7ff632")
+	)
+	(hierarchical_label "HW_KILL_4"
+		(shape bidirectional)
+		(at 31.75 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48529e34-4330-4666-aef7-bf21219dd0af")
 	)
 	(hierarchical_label "SW_KILL"
 		(shape input)
@@ -1405,7 +1446,7 @@
 	)
 	(hierarchical_label "HW_KILL_1"
 		(shape bidirectional)
-		(at 27.94 41.91 90)
+		(at 19.05 41.91 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1413,6 +1454,17 @@
 			(justify left)
 		)
 		(uuid "95cb9a59-a7ca-4e58-bf16-1386e3afc85e")
+	)
+	(hierarchical_label "HW_KILL_3"
+		(shape bidirectional)
+		(at 27.94 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcb1269b-1f7b-4655-8791-b2d4120fd70a")
 	)
 	(hierarchical_label "KILL_STATE"
 		(shape output)
