@@ -5929,8 +5929,8 @@
 	)
 	(text_box "Hydrophone_Signal_Processing"
 		(exclude_from_sim no)
-		(at 254 43.18 0)
-		(size 73.66 99.06)
+		(at 241.3 43.18 0)
+		(size 87.63 99.06)
 		(margins 1.5 1.5 1.5 1.5)
 		(stroke
 			(width 0)
@@ -7225,6 +7225,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 64.77) (xy 261.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17238fe3-56a6-4ab4-beea-a01dff626261")
+	)
+	(wire
+		(pts
 			(xy 238.76 270.51) (xy 238.76 267.97)
 		)
 		(stroke
@@ -8092,6 +8102,16 @@
 			(type default)
 		)
 		(uuid "565d4135-bff8-45e3-8f7c-22a2fb46e456")
+	)
+	(wire
+		(pts
+			(xy 309.88 63.5) (xy 314.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a91624-8573-4bb8-b452-f45fcbd1770b")
 	)
 	(wire
 		(pts
@@ -9085,6 +9105,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 58.42) (xy 251.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986f86a7-8ada-4bf7-8bf0-9d90f3097843")
+	)
+	(wire
+		(pts
 			(xy 290.83 220.345) (xy 290.83 222.885)
 		)
 		(stroke
@@ -9372,6 +9402,16 @@
 			(type default)
 		)
 		(uuid "b2033058-22da-4ad7-99ba-9b7b31b54d4f")
+	)
+	(wire
+		(pts
+			(xy 246.38 62.23) (xy 246.38 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b250ace2-0ed3-4520-94e8-defca67e8a8b")
 	)
 	(wire
 		(pts
@@ -9745,6 +9785,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 60.96) (xy 261.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b6b687-c281-4610-b182-fdc468ab687f")
+	)
+	(wire
+		(pts
 			(xy 269.875 255.905) (xy 269.875 253.365)
 		)
 		(stroke
@@ -9852,6 +9902,16 @@
 			(type default)
 		)
 		(uuid "cf9ccc73-954a-455b-9317-4f4062f0cbbb")
+	)
+	(wire
+		(pts
+			(xy 314.96 63.5) (xy 314.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe7ee31-ab53-4c58-bd3a-ecc0620c41a7")
 	)
 	(wire
 		(pts
@@ -10412,6 +10472,16 @@
 			(type default)
 		)
 		(uuid "f7edca11-4a04-486a-9308-211c3a969ea1")
+	)
+	(wire
+		(pts
+			(xy 309.88 59.69) (xy 312.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fb7dfe-d1a9-4da0-bae4-1d56b00d8531")
 	)
 	(wire
 		(pts
@@ -13195,6 +13265,30 @@
 			)
 		)
 	)
+	(global_label "VOUT_PREAMP"
+		(shape output)
+		(at 312.42 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dba9a331-945e-475d-bce9-76e05b1ff87e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.589 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SPI_SCK"
 		(shape input)
 		(at 323.85 215.9 0)
@@ -14636,6 +14730,83 @@
 			(project "crush-main-board"
 				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 246.38 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "310080e0-f4ff-422b-8d83-17b95f9e220d")
+		(property "Reference" "#PWR073"
+			(at 246.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-3V3"
+			(at 243.332 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b125324-30c7-4080-b3d2-ffb1f4291187")
+		)
+		(instances
+			(project "crush-main-board"
+				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -16884,6 +17055,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 251.46 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62d7a485-08a3-483d-9d19-0375650bd9e0")
+		(property "Reference" "#PWR072"
+			(at 251.46 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 251.46 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfcbfe6a-f957-4ae3-b426-dac35c9d77d9")
+		)
+		(instances
+			(project "crush-main-board"
+				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Crush_MainBoard_Symbols:3x3_Header")
 		(at 147.32 264.795 0)
 		(unit 1)
@@ -17398,6 +17646,82 @@
 			(project "crush-main-board"
 				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e895b10-a61d-4ca8-abf1-722c891e2348")
+		(property "Reference" "#PWR074"
+			(at 314.96 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 71.755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10357c2f-b65d-40cb-8967-09d6e9c5cc7c")
+		)
+		(instances
+			(project "crush-main-board"
+				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -23025,7 +23349,7 @@
 		)
 	)
 	(sheet
-		(at 260.35 50.8)
+		(at 261.62 53.34)
 		(size 48.26 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23041,7 +23365,7 @@
 		)
 		(uuid "55cba671-919d-4819-898d-76214b83328b")
 		(property "Sheetname" "Hydrophone_Preamp"
-			(at 260.35 50.0884 0)
+			(at 261.62 52.6284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23052,7 +23376,7 @@
 			)
 		)
 		(property "Sheetfile" "Hydrophone_Preamp.kicad_sch"
-			(at 260.35 66.6246 0)
+			(at 261.62 69.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23060,6 +23384,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 261.62 57.15 180)
+			(uuid "5315a351-cfc6-426e-a908-90f14271f605")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 309.88 63.5 0)
+			(uuid "8d6de4b9-3be8-4123-8c6f-b4dd5c8752f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT" output
+			(at 309.88 59.69 0)
+			(uuid "7638e851-7326-4de2-abec-89ff6b0b3e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" output
+			(at 261.62 60.96 180)
+			(uuid "b0ac129f-a093-4bf8-8129-6ef306e3fe8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-3V3" output
+			(at 261.62 64.77 180)
+			(uuid "78e4dca1-36ca-4b4b-a0f2-8eab5a195b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
