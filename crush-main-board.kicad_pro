@@ -745,7 +745,7 @@
         "uuid": "74b566fe-9d71-4817-95ed-d472d647f8c8"
       }
     ],
-    "used_designators": "V1-8,D2-3,#PWR71-74,#GND1-16,#FLG1-2,R6,R8-12,C9-16,U7-8,Ve1,VS1-2",
+    "used_designators": "#GND17-18,R19-20,RV2-3,#PWR76-78",
     "variants": []
   },
   "sheets": [
@@ -764,6 +764,10 @@
     [
       "0e721f5c-da80-471e-ad5a-644eccf6c541",
       "Relay Killswitch"
+    ],
+    [
+      "b2962a97-0dd0-455e-a74a-51b43a6d1749",
+      "Hydrophone_Amp"
     ]
   ],
   "text_variables": {
