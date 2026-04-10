@@ -7825,6 +7825,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 120.65) (xy 260.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a28b9b-8794-4292-ad8f-9cb9ae4dc574")
+	)
+	(wire
+		(pts
 			(xy 194.31 106.68) (xy 194.31 107.95)
 		)
 		(stroke
@@ -8305,6 +8315,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 125.73) (xy 298.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614fba73-667c-4238-b298-7fff8314cb91")
+	)
+	(wire
+		(pts
 			(xy 269.875 262.89) (xy 266.7 262.89)
 		)
 		(stroke
@@ -8342,6 +8362,16 @@
 			(type default)
 		)
 		(uuid "6308fc13-3574-4d89-ac75-b9d806fc3453")
+	)
+	(wire
+		(pts
+			(xy 260.35 125.73) (xy 266.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f2097c-de05-4226-b7ea-72a4939062d4")
 	)
 	(wire
 		(pts
@@ -8925,6 +8955,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 120.65) (xy 260.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f7f034-da66-4918-8449-a9d920b64fa2")
+	)
+	(wire
+		(pts
 			(xy 320.675 264.795) (xy 318.135 264.795)
 		)
 		(stroke
@@ -9132,6 +9172,16 @@
 			(type default)
 		)
 		(uuid "96611779-5d08-4e1b-9f3f-c64a60a58d2a")
+	)
+	(wire
+		(pts
+			(xy 298.45 120.65) (xy 304.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975d4976-5e86-4702-bf38-30b29a804050")
 	)
 	(wire
 		(pts
@@ -10382,6 +10432,16 @@
 			(type default)
 		)
 		(uuid "ee6a2e3a-d3af-4ca1-ae92-fad3f2ac5c35")
+	)
+	(wire
+		(pts
+			(xy 307.34 133.35) (xy 307.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9113b9-2767-4306-b5ed-5d186d1491ab")
 	)
 	(wire
 		(pts
@@ -12193,6 +12253,30 @@
 			)
 		)
 	)
+	(global_label "VOUT_AMP"
+		(shape output)
+		(at 260.35 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a0a9559-2098-4186-8f2e-ddaa9de34619")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.87 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DIO35"
 		(shape input)
 		(at 78.74 72.39 0)
@@ -12230,6 +12314,30 @@
 		(uuid "868f8724-90e3-41c3-ac4b-b6dbcd5aca4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.2376 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VOUT_HYDROPHONE"
+		(shape output)
+		(at 304.8 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87590ebb-aa71-4941-8219-d8452d32a2b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.1701 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17062,6 +17170,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 307.34 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5835521d-d458-4103-a472-5eefa724389f")
+		(property "Reference" "#PWR081"
+			(at 307.34 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.34 137.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59535ce4-f907-46e9-a1e3-1485aaf46d6d")
+		)
+		(instances
+			(project "crush-main-board"
+				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Crush_MainBoard_Symbols:ISO7740DW")
 		(at 368.3 82.55 0)
 		(unit 1)
@@ -17928,6 +18112,83 @@
 			(project "crush-main-board"
 				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 260.35 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cfce016-e1b2-45e3-9807-c5e9aafa4c26")
+		(property "Reference" "#PWR080"
+			(at 260.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 260.35 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14d82721-7045-4275-a871-a993239c9bff")
+		)
+		(instances
+			(project "crush-main-board"
+				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -23707,6 +23968,92 @@
 		)
 	)
 	(sheet
+		(at 266.7 115.57)
+		(size 31.75 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3853fe2f-f220-4c5b-8cc6-eb322a4bdaa6")
+		(property "Sheetname" "Hydrophone_Filter"
+			(at 266.7 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hydrophone_Filter.kicad_sch"
+			(at 266.7 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 266.7 120.65 180)
+			(uuid "07945a54-1d18-4290-ac3f-0e53660f9da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 298.45 120.65 0)
+			(uuid "46ee55b3-acb9-4535-9490-48bf2334fa95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 266.7 125.73 180)
+			(uuid "d5506871-f5c9-4191-bb85-31fd898458fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 298.45 125.73 0)
+			(uuid "ba2df15c-887f-490a-89c1-8aacbc25d27e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "crush-main-board"
+				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 266.7 54.61)
 		(size 39.37 15.24)
 		(exclude_from_sim no)
@@ -23774,7 +24121,7 @@
 				(justify right)
 			)
 		)
-		(pin "-5V" output
+		(pin "-5V" input
 			(at 266.7 66.04 180)
 			(uuid "7408b6b7-892d-416f-a01b-6a9b5d4816b8")
 			(effects
@@ -23784,7 +24131,7 @@
 				(justify left)
 			)
 		)
-		(pin "5V" output
+		(pin "5V" input
 			(at 266.7 62.23 180)
 			(uuid "83d0963b-542a-46a9-a429-a274245592d4")
 			(effects
@@ -23850,7 +24197,7 @@
 				(justify right)
 			)
 		)
-		(pin "5V" output
+		(pin "5V" input
 			(at 266.7 90.17 180)
 			(uuid "f1155180-c24f-472d-a2d1-c96c05e15c72")
 			(effects
@@ -23870,7 +24217,7 @@
 				(justify left)
 			)
 		)
-		(pin "-5V" output
+		(pin "-5V" input
 			(at 266.7 93.98 180)
 			(uuid "510f75f8-a827-46fe-893a-2a15d1e75e21")
 			(effects

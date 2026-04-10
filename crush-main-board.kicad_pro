@@ -745,7 +745,7 @@
         "uuid": "74b566fe-9d71-4817-95ed-d472d647f8c8"
       }
     ],
-    "used_designators": "#GND17-18,R19-20,RV2-3,#PWR76-78",
+    "used_designators": "R16,R19-30,#GND13,#GND17-28,#FLG3-4,V9-12,RV2-4,#PWR76-81,C25-36,U11-12,VS3-4,D4-5",
     "variants": []
   },
   "sheets": [
@@ -768,6 +768,10 @@
     [
       "b2962a97-0dd0-455e-a74a-51b43a6d1749",
       "Hydrophone_Amp"
+    ],
+    [
+      "3853fe2f-f220-4c5b-8cc6-eb322a4bdaa6",
+      "Hydrophone_Filter"
     ]
   ],
   "text_variables": {
