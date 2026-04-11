@@ -5905,6 +5905,16 @@
 		)
 		(uuid "6fe25445-932b-4a5e-810f-b3c31e43c816")
 	)
+	(text "Which teensy header?"
+		(exclude_from_sim no)
+		(at 315.976 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78181e5c-4530-4407-a59e-707480988d7b")
+	)
 	(text "PWM2-PWM9 = thrusters\n"
 		(exclude_from_sim no)
 		(at 11.43 46.99 90)
