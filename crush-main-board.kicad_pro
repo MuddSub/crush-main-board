@@ -723,7 +723,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": ""
+      "workbook_filename": "crush-main-board.wbk"
     },
     "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
@@ -745,7 +745,7 @@
         "uuid": "74b566fe-9d71-4817-95ed-d472d647f8c8"
       }
     ],
-    "used_designators": "R16,R19-30,#GND13,#GND17-28,#FLG3-4,V9-12,RV2-4,#PWR76-81,C25-36,U11-12,VS3-4,D4-5",
+    "used_designators": "#PWR82",
     "variants": []
   },
   "sheets": [

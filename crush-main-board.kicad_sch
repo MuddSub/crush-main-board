@@ -5905,9 +5905,9 @@
 		)
 		(uuid "6fe25445-932b-4a5e-810f-b3c31e43c816")
 	)
-	(text "Which teensy header?"
+	(text "To Teensy A/DIO21"
 		(exclude_from_sim no)
-		(at 315.976 116.84 0)
+		(at 312.674 117.094 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6220,12 +6220,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e7787f-1058-4548-aa53-98dc0cb54335")
-	)
-	(junction
-		(at 31.75 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09145d6c-d67d-49bc-bee6-395816c09c04")
 	)
 	(junction
 		(at 386.08 45.085)
@@ -6885,6 +6879,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 184.15) (xy 25.4 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046a83a6-63ce-4d81-b1e4-1e452d4b95a3")
+	)
+	(wire
+		(pts
 			(xy 269.875 262.89) (xy 269.875 265.43)
 		)
 		(stroke
@@ -6975,7 +6979,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 176.53) (xy 31.75 175.26)
+			(xy 38.1 176.53) (xy 38.1 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7505,16 +7509,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 184.15) (xy 31.75 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "292c9d48-15c7-4ca9-86cb-64834dbf6b79")
-	)
-	(wire
-		(pts
 			(xy 78.74 19.05) (xy 86.995 19.05)
 		)
 		(stroke
@@ -7615,7 +7609,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 191.77) (xy 39.37 175.26)
+			(xy 45.72 191.77) (xy 45.72 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8495,16 +8489,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 184.15) (xy 31.75 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aa484d4-a34e-4a73-9235-05f0f9477f06")
-	)
-	(wire
-		(pts
 			(xy 320.675 250.19) (xy 318.135 250.19)
 		)
 		(stroke
@@ -8992,6 +8976,16 @@
 			(type default)
 		)
 		(uuid "8835fcf1-a341-4fcb-a3c2-fe7f2d82df49")
+	)
+	(wire
+		(pts
+			(xy 25.4 184.15) (xy 25.4 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89630c42-b1c6-4120-8a69-05dadbb72dff")
 	)
 	(wire
 		(pts
@@ -9565,7 +9559,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 175.26) (xy 25.4 179.07)
+			(xy 31.75 175.26) (xy 31.75 179.07)
 		)
 		(stroke
 			(width 0)
@@ -10155,7 +10149,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 176.53) (xy 31.75 176.53)
+			(xy 53.34 176.53) (xy 38.1 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10535,7 +10529,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 179.07) (xy 53.34 179.07)
+			(xy 31.75 179.07) (xy 53.34 179.07)
 		)
 		(stroke
 			(width 0)
@@ -10575,7 +10569,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 191.77) (xy 39.37 191.77)
+			(xy 53.34 191.77) (xy 45.72 191.77)
 		)
 		(stroke
 			(width 0)
@@ -12335,8 +12329,8 @@
 			)
 		)
 	)
-	(global_label "VOUT_HYDROPHONE"
-		(shape output)
+	(global_label "A{slash}DIO21"
+		(shape input)
 		(at 304.8 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12345,9 +12339,9 @@
 			)
 			(justify left)
 		)
-		(uuid "87590ebb-aa71-4941-8219-d8452d32a2b2")
+		(uuid "885a5b65-155f-4919-bd09-5d3552a7f3ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.1701 120.65 0)
+			(at 315.8286 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14262,7 +14256,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 31.75 175.26 0)
+		(at 38.1 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -14273,7 +14267,7 @@
 		(fields_autoplaced yes)
 		(uuid "12b9aa10-3461-44cb-ac26-726ab762d41b")
 		(property "Reference" "#PWR057"
-			(at 31.75 179.07 0)
+			(at 38.1 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14284,7 +14278,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 31.75 171.45 0)
+			(at 38.1 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14294,7 +14288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 175.26 0)
+			(at 38.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14305,7 +14299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 175.26 0)
+			(at 38.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14316,7 +14310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 175.26 0)
+			(at 38.1 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14485,6 +14479,84 @@
 			(project "crush-main-board"
 				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 25.4 175.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15b49d3d-2322-4f3d-8496-c3ce9e5f2ae3")
+		(property "Reference" "#PWR082"
+			(at 25.4 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-5V"
+			(at 25.4 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a391001-cc86-495a-b243-c404bc88f6e9")
+		)
+		(instances
+			(project "crush-main-board"
+				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -15291,7 +15363,7 @@
 	)
 	(symbol
 		(lib_id "Crush_MainBoard_Symbols:+3V3_T")
-		(at 39.37 175.26 0)
+		(at 45.72 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -15302,7 +15374,7 @@
 		(fields_autoplaced yes)
 		(uuid "3221ad9c-27cc-41c5-8406-45e9f930e973")
 		(property "Reference" "#PWR052"
-			(at 39.37 179.07 0)
+			(at 45.72 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15313,7 +15385,7 @@
 			)
 		)
 		(property "Value" "+3V3_T"
-			(at 39.37 171.45 0)
+			(at 45.72 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15323,7 +15395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 175.26 0)
+			(at 45.72 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15334,7 +15406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 175.26 0)
+			(at 45.72 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15345,7 +15417,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 175.26 0)
+			(at 45.72 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20088,7 +20160,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 25.4 175.26 0)
+		(at 31.75 175.26 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20100,7 +20172,7 @@
 		(fields_autoplaced yes)
 		(uuid "acc3491b-05a2-4e4c-aaf9-46718ef67ef3")
 		(property "Reference" "#PWR056"
-			(at 25.4 179.07 0)
+			(at 31.75 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20111,7 +20183,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 25.4 171.45 0)
+			(at 31.75 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20121,7 +20193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 175.26 0)
+			(at 31.75 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20132,7 +20204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 175.26 0)
+			(at 31.75 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20143,7 +20215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 175.26 0)
+			(at 31.75 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
