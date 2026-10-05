@@ -48,6 +48,8 @@ Follows the Conventional Commits format:
 
 | `feat`     | a new feature                |
 
+| `lib`	     | update to symbol or footprint library |
+
 | `fix`      | a patch for a bug            |
 
 | `docs`     | update to documentation      |
