@@ -1774,6 +1774,12 @@
 		(uuid "c455a94f-1c7d-490a-a3f5-5d67453e8da4")
 	)
 	(junction
+		(at 22.86 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf7e1d8d-e8dc-4fb3-beda-3b80175b5850")
+	)
+	(junction
 		(at 62.23 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1791,9 +1797,15 @@
 		(color 0 0 0 0)
 		(uuid "eb63bbc3-bc12-40cc-a803-b5a86a1b4619")
 	)
+	(junction
+		(at 22.86 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8324593-a01c-41ad-b38b-f27183a46f2e")
+	)
 	(wire
 		(pts
-			(xy 13.97 58.42) (xy 41.91 58.42)
+			(xy 13.97 58.42) (xy 22.86 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1813,13 +1825,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 43.18) (xy 30.48 43.18)
+			(xy 22.86 46.99) (xy 22.86 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0615514e-3688-4aa1-82fa-bca01c29e8cf")
+		(uuid "061f7033-4a6b-43b3-9ff8-7bcd5e934c67")
 	)
 	(wire
 		(pts
@@ -1933,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 43.18) (xy 17.78 43.18)
+			(xy 13.97 43.18) (xy 22.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2143,6 +2155,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 58.42) (xy 41.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805262f1-064d-4f72-9d04-2f1e351569dc")
+	)
+	(wire
+		(pts
 			(xy 104.14 43.18) (xy 99.06 43.18)
 		)
 		(stroke
@@ -2270,6 +2292,16 @@
 			(type default)
 		)
 		(uuid "a3a335a8-dbee-4613-a432-528d84e6983a")
+	)
+	(wire
+		(pts
+			(xy 22.86 43.18) (xy 30.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56805ef-3727-40e5-960e-bca6d15ed12a")
 	)
 	(wire
 		(pts
@@ -2500,6 +2532,16 @@
 			(type default)
 		)
 		(uuid "f0a34ca8-d516-478b-8053-d926f1c5f845")
+	)
+	(wire
+		(pts
+			(xy 22.86 54.61) (xy 22.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1921c98-866b-4506-96c4-8944fac9131e")
 	)
 	(wire
 		(pts
@@ -3531,6 +3573,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 22.86 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37c68375-2f72-4f4a-8426-e41b2a9c0ca7")
+		(property "Reference" "R9"
+			(at 25.4 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "${SIM.PARAMS}"
+			(at 25.4 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 21.844 50.546 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "="
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "r=50"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71d6938e-c7ff-4e98-aff2-b448f50166c4")
+		)
+		(pin "1"
+			(uuid "e17e5467-fa50-4661-942e-790ca16cc0b4")
+		)
+		(instances
+			(project "crush-main-board"
+				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8/55cba671-919d-4819-898d-76214b83328b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 278.13 35.56 90)
 		(unit 1)
@@ -4431,130 +4599,6 @@
 			(project "crush-main-board"
 				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8/55cba671-919d-4819-898d-76214b83328b"
 					(reference "VS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 21.59 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c96d92e-f32e-4525-a0d3-42f588c7d483")
-		(property "Reference" "R9"
-			(at 21.59 36.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 21.59 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 21.844 42.164 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 21.59 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 21.59 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "="
-			(at 21.59 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "r=50"
-			(at 21.59 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 21.59 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dd5ac341-8379-4131-b138-0189585d0ba3")
-		)
-		(pin "1"
-			(uuid "cdcd6332-4981-4251-97bf-b285269f73f9")
-		)
-		(instances
-			(project "crush-main-board"
-				(path "/74b566fe-9d71-4817-95ed-d472d647f8c8/55cba671-919d-4819-898d-76214b83328b"
-					(reference "R9")
 					(unit 1)
 				)
 			)
