@@ -17713,7 +17713,7 @@
 		(fields_autoplaced yes)
 		(uuid "5835bb8b-ddc5-4df3-a873-79407f8f2195")
 		(property "Reference" "U3"
-			(at 368.3 64.77 0)
+			(at 368.3 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17722,8 +17722,8 @@
 				)
 			)
 		)
-		(property "Value" "ISO7740DW"
-			(at 368.3 67.31 0)
+		(property "Value" "ISO7740DWR"
+			(at 368.3 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22652,7 +22652,7 @@
 		(fields_autoplaced yes)
 		(uuid "e16d525f-7b74-40ea-8ba4-4735d1a6714d")
 		(property "Reference" "U2"
-			(at 368.3 17.145 0)
+			(at 368.3 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22661,8 +22661,8 @@
 				)
 			)
 		)
-		(property "Value" "ISO7740DW"
-			(at 368.3 19.685 0)
+		(property "Value" "ISO7740DWR"
+			(at 368.3 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
