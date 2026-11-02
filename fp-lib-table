@@ -1,4 +1,5 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "Crush_Mainboard_Footprints")(type "KiCad")(uri "${KIPRJMOD}/library/Crush_Mainboard_Footprints.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "Crush_Mainboard_Footprints") (type "KiCad") (uri "${KIPRJMOD}/library/Crush_Mainboard_Footprints.pretty") (options "") (descr ""))
+	(lib (name "LT6200") (type "KiCad") (uri "C:/Users/Loaner.LOANER-600065/Downloads/LIB_LT6200CS6-5#TRMPBF/LT6200CS6-5#TRMPBF/KiCad") (options "") (descr ""))
 )
