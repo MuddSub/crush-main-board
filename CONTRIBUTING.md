@@ -23,7 +23,7 @@ Follow the [Conventional Commits](https://www.conventionalcommits.org/) format:
 [optional footer(s)]
 ```
 
-(e.g., `feat: added standardized zooming indicators`)
+(e.g., `[feat] added standardized zooming indicators`)
 
 ## Commit Naming
 
